@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url(watercolorBackground0.jpg);
+                background-position: center;
+                background-size: cover;
+                height: 700px;
+            }
+
+            .container {
+                text-align: center;
+                width: 100%;
+                padding: 10px 0px;
+            }                
+
+            .container h1 {
+                font-size: 70px;
+                color:rgb(0, 0, 0);
+            }
+
+            .container h3 {
+                font-size: 25px;
+                color: black;
+            }
+
+            form {
+                max-width: 420px;
+                margin: 50px auto;
+            }
+
+            .feedback-input {
+                color:crimson;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                border-radius: 5px;
+                line-height: 22px;
+                background-color: transparent;
+                border: 2px solid rgb(0, 0, 0);
+                transition: all 0.3s;
+                padding: 13px;
+                margin-bottom: 15px;
+                width: 100%;
+                box-sizing: border-box;
+                outline: 0;
+            }
+
+            textarea {
+                height: 150px;
+                line-height: 150%;
+                resize: vertical;
+            }
+
+            .button{
+                font-family: Arial, Helvetica, sans-serif;
+                width: 100%;
+                background-color:  #ffaa009d;
+                border-radius: 5PX;
+                border: 2px solid white;
+                cursor: pointer;
+                color: white;
+                font-size: 24px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 172px;
+                padding-right: 172px;
+                transition: all 0.3s;
+                font-weight: 500;
+                text-decoration: none;
+            }
+
+            .button:hover {
+                color: black;
+                background-color: #ffaa00;
+                border: 2px solid black;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+                <h1> CONTACT US &nbsp;</h1>
+                <h3>Fill out this form below to clear your queries!</h3>
+        </div>
+
+        <Form>
+            <input type="text" name="name" class="feedback-input" placeholder="Name">
+            <input type="text" name="email" class="feedback-input" placeholder="Email" required>
+            <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+            <a class="button" href="submitphotography.html">Submit</a>
+        </Form>
+    </body>
+</html>

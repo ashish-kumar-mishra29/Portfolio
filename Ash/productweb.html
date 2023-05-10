@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+        <style>
+            body {
+                background-color: #0f0f0f;
+            }
+
+            h2 {
+                font-family:'Cinzel', serif; 
+                font-size: 45px;
+                color: white;
+                text-align: center;
+                cursor: pointer;
+                transition: 0.5s;
+            }
+
+            h2:hover{
+                color:#fff;
+                text-shadow: 0 0 5px #ff0073,
+                             0 0 5px #ff0073,
+                             0 0 5px #ff0073,
+                             0 0 5px #ff0073;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            .box {
+                float: right;
+                width: 33.33%;
+                padding: 5px;
+            }
+
+            .clearfix::after {
+                content: "";
+                clear:both;
+                display: table;
+            }
+
+            .clearfix img {
+                transition: 1s ease;
+            }
+
+            .clearfix img:hover {
+                -webkit-transform: scale(0.8);
+                -ms-transform: scale(0.8);
+                transform: scale(0.8);
+                transition: 1s;
+            }
+        </style>
+    </head>
+    <body>
+        <h2> Product Photography Work</h2>
+        <div class="clearfix">
+            <div class="box"><img src="pro1.jpg" style="width:100%;"></div>
+            <div class="box"><img src="pro2.jpg" style="width:100%;"></div>
+            <div class="box"><img src="pro3.jpg" style="width:100%;"></div>
+            <div class="box"><img src="pro4.jpg" style="width:100%;"></div>
+            <div class="box"><img src="pro5.jpg" style="width:100%;"></div>
+            <div class="box"><img src="pro6.jpg" style="width:100%;"></div>
+        </div>
+        <div class="clearfix">
+            <div class="box"><img src="pro7.jpg" style="width:100%;"></div>
+            <div class="box"><img src="pro8.jpg" style="width:100%;"></div>
+            <div class="box"><img src="pro9.jpg" style="width:100%;"></div>
+            <div class="box"><img src="pro10.jpg" style="width:100%;"></div>
+            <div class="box"><img src="pro11.jpg" style="width:100%;"></div>
+            <div class="box"><img src="pro12.jpg" style="width:100%;"></div>
+        </div>
+    </body>
+</html>

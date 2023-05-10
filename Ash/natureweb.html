@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+<style>
+  body{
+     background-color: #0f0f0f;
+  }
+  h2{
+    font-family: 'Cinzel', serif;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+  }
+
+  p{
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    color: salmon;
+    text-align: center;
+    text-decoration: underline;
+  }
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float:right;
+  width: 33.33%;
+  padding:5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear:both;
+  display:table;
+}
+
+a{
+    color: darkblue;
+    text-align: left;
+    font-size: 18px;
+}
+</style>
+</head>
+<body>
+<h2>Nature Photography </h2>
+<p>Some Glimpes of my work</p>
+<body>
+<!-- Photo Grid -->
+<div class="clearfix"> 
+  <div class="box"><img src="n1.jpg" style="width:100%;" ></div>
+  <div class="box"><img src="n2.jpg" style="width:100%;" ></div>
+  <div class="box"><img src="n3.jpg" style="width:100%;" ></div>
+  <div class="box"><img src="n4.jpg" style="width:100%;" ></div>
+  <div class="box"><img src="n5.jpg" style="width:100%;" ></div>
+  <div class="box"><img src="n6.jpg" style="width:100%;" ></div>   
+</div>
+
+</body>
+</html>

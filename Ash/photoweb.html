@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+<style>
+  body{
+     background-color: #0f0f0f;
+  }
+  h2{
+    font-family: 'Cinzel', serif;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float:right;
+  width: 33.33%;
+  padding:5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear:both;
+  display:table;
+}
+
+.clearfix img {
+transition: 1s ease;
+}
+
+.clearfix img:hover{
+-webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease;
+}
+
+</style>
+</head>
+<body>
+<h2>Nature Photography </h2>
+<!-- Photo Grid -->
+<div class="clearfix"> 
+  <div class="box"><img src="n1.jpg" style="width:100%;" ></div>
+  <div class="box"><img src="n2.jpg" style="width:100%;" ></div>
+  <div class="box"><img src="n3.jpg" style="width:100%;" ></div>
+  <div class="box"><img src="n4.jpg" style="width:100%;" ></div>
+  <div class="box"><img src="n5.jpg" style="width:100%;" ></div>
+  <div class="box"><img src="n6.jpg" style="width:100%;" ></div>  
+</div>
+<div class="clearfix">
+  <div class="box"><img src="n7.jpg" style="width:100%;" ></div>
+  <div class="box"><img src="n8.jpg" style="width:100%;" ></div> 
+  <div class="box"><img src="n9.jpg" style="width:100%;" ></div> 
+</div>
+<div class="clearfix">
+  <div class="box"><img src="n10.jpg" style="width:100%;" ></div>
+  <div class="box"><img src="n11.jpg" style="width:100%;" ></div> 
+  <div class="box"><img src="n12.jpg" style="width:100%;" ></div> 
+</div>
+
+</body>
+</html>
